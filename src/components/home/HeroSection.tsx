@@ -38,11 +38,11 @@ const HeroSection = () => {
           manual entry, no guesswork. Built for real life.
         </p>
         <div className="flex flex-col md:flex-row gap-4 mt-8 items-center justify-center w-full md:w-[40%] px-10">
-          <button className="bg-neutral-900  w-full sm:px-12 py-4 rounded-lg flex items-center justify-center gap-2 text-white font-normal cursor-pointer shadow-2xl shadow-[#d8d8d8]">
+          <button className="bg-gradient-to-br from-zinc-900 to-zinc-700 border border-neutral-600  w-full sm:px-12 py-4 rounded-xl flex items-center justify-center gap-2 text-neutral-300 font-normal cursor-pointer shadow-2xl shadow-[#d8d8d8]">
             Get Early Access
             <IoRocketOutline className="w-5 h-5" />
           </button>
-          <button className="bg-white w-full  sm:px-12 py-4 rounded-lg flex items-center justify-center gap-2 border border-neutral-200 p !text-neutral-800 font-normal cursor-pointer shadow-2xl shadow-[#d8d8d8]">
+          <button className="bg-gradient-to-b from-white to-[#EEEEEE] w-full  sm:px-12 py-4 rounded-xl flex items-center justify-center gap-2 border border-neutral-200/80 p !text-neutral-800 font-normal cursor-pointer shadow-2xl shadow-[#d8d8d8]">
             <LuVideo className="w-5 h-5" />
             Watch Demo
           </button>
