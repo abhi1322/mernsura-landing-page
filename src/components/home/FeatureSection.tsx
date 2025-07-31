@@ -3,7 +3,7 @@ import Image from "next/image";
 const FeatureSection = () => {
   return (
     <div className="w-full h-full flex items-center justify-center my-40">
-      <div className="mx-auto px-8 md:w-2/3 md:h-[75vh]  grid grid-cols-1 grid-flow-row  md:grid-cols-3 md:grid-rows-4 gap-4 ">
+      <div className="mx-auto px-8 lg:w-2/3 md:h-[75vh]  grid grid-cols-1 grid-flow-row  md:grid-cols-3 md:grid-rows-4 gap-4 ">
         <div className="flex items-center leading-[100%]">
           <p className="text-4xl font-semibold">
             Everything You Need. <br />
@@ -56,7 +56,7 @@ const FeatureSection = () => {
             height={200}
           />
         </div>
-        <div className="relative overflow-hidden md:col-span-2 md:row-span-2 md:col-start-2 md:row-start-3  rounded-2xl bg-gradient-to-br from-[#262626] to-[#242424] p-8">
+        <div className="relative overflow-hidden md:col-span-2 md:row-span-2 md:col-start-2 md:row-start-3  rounded-2xl bg-gradient-to-br from-[#262626] to-[#242424] p-8 h-[520px] lg:h-auto ">
           <h6 className="text-[44px] leading-11 text-[#C7C7C7] font-semibold">
             Meal-Time <br /> Reminders
           </h6>
@@ -76,7 +76,7 @@ const FeatureSection = () => {
             height={250}
             width={250}
             alt="illustration"
-            className="absolute bottom-10 right-54"
+            className="absolute right-28 bottom-5 lg:bottom-10 lg:right-54"
           />
         </div>
       </div>
